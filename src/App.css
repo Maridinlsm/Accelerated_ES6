@@ -1,0 +1,92 @@
+.header {
+  text-align: center;
+  background: lightseagreen;
+  height: 100px;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  padding-top: 50px;
+}
+
+.footer {
+  text-align: right;
+  background: whitesmoke;
+  height: 30px;
+  width: 100%;
+  font-size: 15px;
+  color: gray;
+  position: fixed;
+  bottom: 0;
+  padding-top: 10px;
+}
+
+.setup {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: lightseagreen;
+}
+
+.input {
+  padding: 2px 2px 2px 2px;
+  font-size: 18px;
+  border-radius: 3px;
+  border-bottom-style: solid;
+  font-weight: 400;
+  color: gray;
+}
+
+.button {
+  padding-left: 10px;
+  margin-left: 10px;
+  background-color: lightseagreen;
+  border: 5px solid lightseagreen;
+  border-radius: 3px;
+  padding: 3px;
+  font-weight: 600;
+  color: white;
+}
+
+.result {
+  width: 500px;
+  height: 100px;
+  background-color: lightseagreen;
+  padding-top: 50px;
+  margin: auto;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px;
+}
+
+.result-city {
+  text-align: center;
+  font-size: 25px;
+}
+
+.result-footer {
+  padding-top: 30px;
+}
+
+.result-condition {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  width: 45%;
+  padding-left: 5%;
+}
+
+.result-temperature {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  width: 45%;
+  padding-right: 5%;
+}
